@@ -1,0 +1,15 @@
+{
+  "name": "upstox-appl-client",
+  "version": "1.0.0",
+  "description": "Upstox Application Client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shahrukh Sayyed<shahrukhsayyed.tech@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {}
+}
