@@ -78,12 +78,12 @@ Note : You can skip this steps if you have Node and npm  installed on your syste
 ### Installing/ Running locally
 
 
-1) Create a folder named as upstox-app at any local drive
+1) Create a folder named as trading-app at any local drive
 
-2) change directory to upstox-app
+2) change directory to trading-app
 
 ```
->cd upstox-app
+>cd trading-app
 ```
 
 3) Fetch the source code from my github library
@@ -93,7 +93,7 @@ Note : You can skip this steps if you have Node and npm  installed on your syste
 ```
 
 ```
->git remote add origin https://github.com/ShahrukhSayyed/upstox-application.git
+>git remote add origin https://github.com/ShahrukhSayyed/trading-app.git
 ```
 
 ```
@@ -121,7 +121,7 @@ Note : You can skip this steps if you have Node and npm  installed on your syste
 ## Architecture of Application
 
 ### Data flow
-![alt architecture](https://github.com/ShahrukhSayyed/upstox-application/blob/master/Architecture%20Flow%20-%20Upstox.png)
+![alt architecture](https://github.com/ShahrukhSayyed/trading-app/blob/master/Architecture%20Flow.png)
 
 ## Built With
 
