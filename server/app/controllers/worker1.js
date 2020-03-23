@@ -23,7 +23,7 @@ logger.info('Worker 1 Started', 'Worker1', 10);
 
 
 function readTradesData(inputValue){
-    fileStream = fs.createReadStream('./assets/sampleTrades.json', { encoding: "utf8" });
+    fileStream = fs.createReadStream('./assets/trades.json', { encoding: "utf8" });
     fileStream.pipe(JSONStream.parse("*")).pipe(
       es.through(function(data) {
         // console.log("printing one customer object read from file ::");
